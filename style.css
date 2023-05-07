@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: aquamarine;
+}
+header a{ text-decoration: none;
+color: white;}
+.navbar ul {
+    position: relative;
+    left: 260px;
+    list-style:none ;
+    text-decoration: none;
+    display: flex;
+    width: 400px;
+    /* background-color: azure; */
+    justify-content: space-between;
+    font-size: 18px;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.logo{
+    margin-left: 30px;
+}
+.nbtn button{ width: 100px;
+    height: 30px;
+    background-color: rgb(10, 161, 111);
+   border: none;
+   border-radius: 15px;
+}
+/* -----////--- */
+.hero{
+    
+   margin: 20px; 
+    
+    display: flex; 
+    /* background-color: aquamarine; */
+}
+
+.text-box{ 
+    /* background-color: blue; */
+height: 100vh;
+width: 50%;
+display: flex;
+position: relative;
+top: 50px;
+/* align-items: center; */
+flex-direction: column;
+margin: 30px;
+
+}
+.text-box h2{
+    margin: 20px;
+
+}
+.text-box h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.text-box p{
+    text-align: center;
+    /* line-height: 1px; */
+    font-size: 20px;
+}
+.text-box span{
+    margin-top: 20px;
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+}
+
+
+.card{
+    display: flex;
+}
+.card img{
+    width: 40px;
+    border-radius: 15px;
+}
+.card span{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card h2{ 
+    font-size: 20px;
+color: white;
+}
+.card a{
+    position: relative;
+    left: 200px;
+    height: 30px;
+    top: 50px;
+    color: white;
+    font-size: 25px;
+}
+.last{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.last button{
+    height: 30px;
+    margin-left: 20px;
+}
+.last a{
+    color: white;
+    font-size: 20px;
+}
+.boxes{
+    background-color: rgb(209, 134, 43);
+    height: 100vh;
+    width: 50%;
+    position: relative;
+    top: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.box-1{
+    width: 400px;
+    height: 230px;
+    background-color: beige;
+    /* position: absolute; */
+    margin: 10px;
+    position: relative;
+    top: 10px;
+    right: 90px;
+    border-radius: 20px;
+}
+.box-2{
+    width: 200px;
+    height: 250px;
+    background-color: beige;
+    /* position: absolute; */
+    margin: 10px;
+    position: relative;
+    right: -340px;
+bottom: 250px;
+    border-radius: 20px;
+
+}.box-3{
+    width: 400px;
+    height: 180px;
+    background-color: beige;
+    margin: 10px;
+    /* position: absolute; */
+    position: relative;
+bottom: 250px;
+
+border-radius: 20px;
+
+}.box-4{
+    width: 400px;
+    height: 160px;
+    background-color: beige;
+    margin: 10px;
+    position: relative;
+    bottom: 220px;
+    border-radius: 20px;
+     
+
+}.box-5{
+    width: 200px;
+    height: 100px;
+    background-color: beige;
+    margin: 10px;
+
+}
